@@ -15,11 +15,16 @@
     />
   </head>
   <body>
-    <form id="search-form">
-      <input type="text" id="search-input" placeholder="Search images..." />
-      <button type="submit">Search</button>
+    <form id="search-form" class="search-form">
+      <input
+        class="search-input"
+        type="text"
+        id="search-input"
+        placeholder="Search images..."
+      />
+      <button class="submit-button" type="submit">Search</button>
     </form>
-    <div id="loader" class="hidden">Loading...</div>
+    <div id="loader" class="hidden">Loading images, please wait...</div>
     <div id="error-message"></div>
     <div id="image-gallery" class="image-gallery"></div>
 
