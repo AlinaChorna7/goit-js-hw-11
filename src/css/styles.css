@@ -14,3 +14,34 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body{
+  padding: 15px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+ gap: 24px;
+}
+
+
+.image-gallery img{
+  width: calc((1128px - 48px)/3);}
+
+.hidden{
+  display: none;
+}
+
+.search-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
